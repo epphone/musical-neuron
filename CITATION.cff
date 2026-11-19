@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Goudreau
+    given-names: Antoine
+title: "The Musical Neuron (le neurone musical): a Max/MSP tool for co-comprovisation"
+type: software
+keywords:
+  - Max/MSP
+  - co-comprovisation
+  - computer-assisted composition
+  - improvisation
+  - melodic analysis
+  - Bach
+  - Cage
+  - Dada
+  - Deleuze
+repository-code: "https://github.com/epphone/musical-neuron"
+license: CC-BY-NC-SA-4.0
+abstract: >-
+  The Musical Neuron transcribes an improvised monodic phrase of one breath-length,
+  analyzes it, reduces it to a spatial-notation line (held notes and glissandi),
+  and feeds it back to the performer, who re-improvises over each iteration of
+  the line. The analysis pipeline (rhythmic-distribution markers, slicing into
+  basic melodic units, median-based merging and splitting, melodic reduction
+  against idealized contour profiles) is described in the repository documentation;
+  its conceptual foundations are developed in the included essay (in French).
